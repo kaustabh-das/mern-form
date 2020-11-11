@@ -25,7 +25,7 @@ const useForm = (callback, validate) => {
                 console.log(res.data[0].username);
                 let userName = [];
                 for(let i=0; i<res.data.length; i++){
-                  userName.push(res.data[i].username);
+                  userName.push(res.data[i].gpa);
                 }
                 setScores(userName);
               })
