@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+  background-color: white;
+}
+
+.form-container {
+  text-align: center;
+  margin: 3%;
+  padding-left: 15%;
+  padding-right:15%;
+  width: 90%;
+}
+
+.label-packet {
+  text-align: left;
+  padding-left: 15%;
+  padding-right:15%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  /* padding: 3%; */
+}
+
